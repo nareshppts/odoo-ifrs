@@ -136,7 +136,7 @@
             </t>
         </template>
 
-        <template id="ifrs_template">
+        <template id="ifrs_report.ifrs_template">
             <t t-call="ifrs_report.html_container">
                 <t t-foreach="doc_ids" t-as="doc_id">
                     <t t-raw="translate_doc(doc_id, doc_model, 'company_id.partner_id.lang', 'ifrs_report.ifrs_document')"/>
